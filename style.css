@@ -1,0 +1,126 @@
+body{
+    /* display 된 요소들을 어떻게 볼거냐 기본값은 block 이라서 메인영역을 300px 
+    마진을 주면 같이 내려가게 됨 */
+    display: contents;
+}
+
+.navbar{
+    /* 정렬할수있는 스타일 float */
+    float: right;
+    /* border: 1px solid red; */
+    margin: 20px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+    /* 글씨간 간격 띄우자 */
+    margin-right: 15px; 
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+/* 메인영역을 좀 내리자 */
+.main {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.input-area{
+    margin-top: 20px;
+}
+
+.input-box{
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.search-icon{
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+
+}
+
+.mic-icon{
+    position: relative;
+    right: 40px;
+    color: #9aa0a6;
+}
+
+
+.button-area{
+    padding-top: 18px;
+}
+
+.button-style{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+
+.button-style:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.language-area{
+    margin-top: 18px;
+}
+
+.language-style{
+    color: #1a0dab;
+    text-decoration: none;
+    padding: 0 3px;
+}
+
+.language-style:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    /* 자기 부모에 대한 100% --> body :스크린전체*/
+    width: 100%;
+}
+
+.first-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.second-line{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.second-line-second{
+    float: right;
+}
+
+.second-line a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+    padding-right: 15px;
+}
+
+.second-line a:hover{
+    text-decoration: underline;
+}
