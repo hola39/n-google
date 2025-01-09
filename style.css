@@ -38,7 +38,7 @@ body{
     border-radius: 24px;
     border: 1px solid #dfe1e5;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 80px;
 }
 
 .search-icon{
@@ -50,10 +50,17 @@ body{
 
 .mic-icon{
     position: relative;
-    right: 40px;
+    right: 75px;
     color: #9aa0a6;
+    margin-right: 40px;
 }
 
+.cam-icon{
+    position: relative;
+    right: 110px;
+    color: #9aa0a6;
+    margin-left: 10px;
+}
 
 .button-area{
     padding-top: 18px;
@@ -124,3 +131,4 @@ body{
 .second-line a:hover{
     text-decoration: underline;
 }
+
